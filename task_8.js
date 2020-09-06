@@ -15,7 +15,7 @@ const countNumber = (number, digit) => {
       iteration = iteration + 10;
     }
   }
-  console.log(result, iteration);
+  console.log(result);
 };
 
 countNumber(35, 3);
