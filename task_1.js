@@ -1,6 +1,8 @@
 const sumofNum = (array, num) => {
+  //
   let even = 0;
   let odd = 0;
+  let newArray = [];
 
   for (i = 0; i < num; i++) {
     if (i % 2 == 0) {
@@ -10,6 +12,8 @@ const sumofNum = (array, num) => {
     }
   }
 
+  newArray.push(even, odd);
+  console.log(newArray);
   console.log("Sum of even numbers: " + even);
   console.log("Sum of odd numbers: " + odd);
 };
