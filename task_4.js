@@ -31,6 +31,6 @@ const checkPassword = (userPassword) => {
   }
 };
 
-const userPassword = "password";
+const userPassword = "password123";
 
 checkPassword(userPassword);
