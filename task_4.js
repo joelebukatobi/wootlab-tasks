@@ -31,6 +31,6 @@ const checkPassword = (userPassword) => {
   }
 };
 
-const userPassword = "joelebuka193";
+const userPassword = "password";
 
 checkPassword(userPassword);
